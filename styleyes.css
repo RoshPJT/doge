@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(https://th.bing.com/th/id/OIP.OTiLlDNUz84qkfgTQhd7fwHaJ4?w=132&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3);
+}
+@font-face {
+    font-family: "MyFont";
+    src: url("font/Hellokitty.otf") format("truetype");
+}
+h1{
+    font-family: "MyFont", sans-serif;
+    color: rgb(255, 0, 149);
+    font-size: 180px;
+    text-align: center;
+    margin-top: 0px;
+}
+h3{
+    color: rgb(90, 102, 93);
+    margin-left: 1100px;
+}
