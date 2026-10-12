@@ -12,7 +12,9 @@ body{
 }
 @font-face {
     font-family: "MyFont";
-    src: url("font/Hellokitty.otf") format("truetype");
+    src: url("./font/Hellokitty.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
 }
 h1{
     font-family: "MyFont", sans-serif;
